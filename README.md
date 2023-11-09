@@ -3,4 +3,6 @@ Comparison between crude Runge-Kutta calculation and sophisticated Runge-Kutta c
 
 When we use a Runge-Kutta algorithm - which I call crude Runge-Kutta - and continue to lower the stepsize in an attempt to improve the accuracy of the result, the accumulation of the numerical error starts to dominate over the solution, rendering our computational effort worthless. We can study this pathological behaviour when we use a system of differential equations that we can solve analytically. Here I pick Kepler's planetary motion. A planet moves around the Sun in an elliptic orbit. The equations of motion are ordinary differential equations and are numerically calculated using a Runge-Kutta method.
 
-An Euler method or a higher order method will both have a similar accumulation error for a certain stepsize. We can correct for this accumulation of numerical errors and I call this method sophisticated Runge-Kutta.      
+An Euler method or a higher order method will both have a similar accumulation error for a certain stepsize. We can correct for this accumulation of numerical errors and I call this method sophisticated Runge-Kutta.
+
+Reference: Numerical methods for ODEs, Butcher (2008)
