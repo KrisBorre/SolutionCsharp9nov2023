@@ -111,16 +111,20 @@ namespace WindowsFormsFrameworkDogTextBox10nov2023
         {
             Console.WriteLine("Don’t wait for your feelings to change to take the action. Take the action and your feelings will change.");
 
-            // https://mathcurve.com/courbes2d.gb/poursuite/poursuite.shtml
             // Solving ODEs I (2000) page 14 master-and-dog problem
-            // Sophisticated RK61 method with f(x,y) dependency!
-            // 2 eerste orde differentiaal vergelijkingen worden opgelost met Runge-Kutta.
-            // zie Euler methode om een differentiaal vergelijking numeriek op te lossen.
-            // for RK61 see page 194 Butcher (2008)
+            // We solve 2 first order differential equations using a sophisticated RK61 method with f(x, y) dependency. For RK61 see page 194 Butcher (2008)
 
-            // ratio is v / w
-            // Using 0.5 the dog is twice as fast as the master.
-            // We stop when the dog reaches the master.
+            // A master and her dog are going for a walk and the dog runs towards the master with the intent to join.
+            // The dog is in the graph at the top-right. The master walks from the bottom-left along the y-axis. The dog runs straight to the master.
+            // Probably because during previous walks she waited to let the dog reach her, but now she doesn't stop and continues to walk.
+            // The result is that the dog will run in an arc towards his master.
+
+            // If the dog is twice as fast as the master, then the ratio is 0.5.
+            // The ratio is v / w
+            // You can type a ratio in the TextBox and press the Calculate Button.
+            // We stop calculating when the dog reaches the master.
+
+            // https://mathcurve.com/courbes2d.gb/poursuite/poursuite.shtml           
 
             ulong number_of_steps = 1000;
             Console.WriteLine("master-and-dog problem      RK61");
