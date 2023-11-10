@@ -6,3 +6,12 @@ When we use a Runge-Kutta algorithm - which I call crude Runge-Kutta - and conti
 An Euler method or a higher order method will both have a similar accumulation error for a certain stepsize. We can correct for this accumulation of numerical errors and I call this method sophisticated Runge-Kutta.
 
 Reference: Numerical methods for ODEs, Butcher (2008)
+
+Master-and-dog problem (Solving ODEs I (2000) page 14)
+![repo9nov2023dogAndMaster10nov2023](https://github.com/KrisBorre/SolutionCsharp9nov2023/assets/135237046/ee4f1f14-adeb-4d21-a78f-770aa75afab7)
+
+We solve 2 first order differential equations using a sophisticated RK61 method with f(x,y) dependency. For RK61 see page 194 Butcher (2008)
+
+A master and her dog are going for a walk and the dog runs towards the master with the intent to join. The dog is in the graph at the top-right. The master walks from the bottom-left along the y-axis. The dog runs straight to the master. Probably because during previous walks she waited to let the dog reach her, but now she doesn't stop and continues to walk. The result is that the dog will run in an arc towards his master.
+
+If the dog is twice as fast as the master, then the ratio is 0.5. You can type a ratio in the TextBox and press the Calculate Button. We stop calculating when the dog reaches the master. https://mathcurve.com/courbes2d.gb/poursuite/poursuite.shtml
