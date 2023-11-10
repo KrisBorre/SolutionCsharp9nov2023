@@ -3,13 +3,13 @@ using System;
 
 namespace LibraryFrameworkDifferentialEquationDog9nov2023
 {
-    public class DifferentialEquationsDog : DifferentialEquationsBaseClass
+    public class DifferentialEquationsDog10nov2023 : DifferentialEquationsBaseClass
     {
-        public DifferentialEquationsDog()
+        public DifferentialEquationsDog10nov2023(double ratio = 0.5)
         {
             DifferentialEquations = new DifferentialEquationBaseClass[2];
             DifferentialEquations[0] = new DifferentialEquation1();
-            DifferentialEquations[1] = new DifferentialEquation2();
+            DifferentialEquations[1] = new DifferentialEquation2(ratio);
         }
 
         public class DifferentialEquation1 : DifferentialEquationBaseClass
@@ -24,9 +24,9 @@ namespace LibraryFrameworkDifferentialEquationDog9nov2023
         {
             public double ratio; // ratio zou ook een functie van x kunnen zijn.
 
-            public DifferentialEquation2()
+            public DifferentialEquation2(double ratio = 0.5)
             {
-                ratio = 1.0 / 2; // v / w
+                this.ratio = ratio; // 1.0 / 2; // v / w
                                  // Dog is twice as fast as the master.
             }
 

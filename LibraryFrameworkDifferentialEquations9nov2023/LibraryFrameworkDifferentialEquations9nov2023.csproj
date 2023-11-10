@@ -50,6 +50,7 @@
     <Compile Include="DifferentialEquationsSolverRK61_5nov2023.cs" />
     <Compile Include="IIndexInterface.cs" />
     <Compile Include="NumericalSolution.cs" />
+    <Compile Include="NumericalSolutions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryFrameworkDifferentia
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsFrameworkKepler9nov2023", "WindowsFormsFrameworkKepler9nov2023\WindowsFormsFrameworkKepler9nov2023.csproj", "{7D2C2233-C066-4A27-9B17-89E82C789FF2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsFrameworkDogTextBox10nov2023", "WindowsFormsFrameworkDogTextBox10nov2023\WindowsFormsFrameworkDogTextBox10nov2023.csproj", "{D62562E5-DE7D-4E59-BD37-D690772CFF80}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{7D2C2233-C066-4A27-9B17-89E82C789FF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D2C2233-C066-4A27-9B17-89E82C789FF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D2C2233-C066-4A27-9B17-89E82C789FF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D62562E5-DE7D-4E59-BD37-D690772CFF80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D62562E5-DE7D-4E59-BD37-D690772CFF80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D62562E5-DE7D-4E59-BD37-D690772CFF80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D62562E5-DE7D-4E59-BD37-D690772CFF80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
