@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleBookmarkManager11nov
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleBookmarkHidden11nov2023", "ConsoleBookmarkHidden11nov2023\ConsoleBookmarkHidden11nov2023.csproj", "{D8BC4B0D-92FE-4FF9-BD20-91AEF5091709}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleGeometricFigures11nov2023", "ConsoleGeometricFigures11nov2023\ConsoleGeometricFigures11nov2023.csproj", "{6DFB0204-1E9F-4D42-B144-8898C81374FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{D8BC4B0D-92FE-4FF9-BD20-91AEF5091709}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8BC4B0D-92FE-4FF9-BD20-91AEF5091709}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8BC4B0D-92FE-4FF9-BD20-91AEF5091709}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DFB0204-1E9F-4D42-B144-8898C81374FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DFB0204-1E9F-4D42-B144-8898C81374FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DFB0204-1E9F-4D42-B144-8898C81374FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DFB0204-1E9F-4D42-B144-8898C81374FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
