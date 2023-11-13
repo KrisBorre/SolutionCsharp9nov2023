@@ -13,13 +13,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsFrameworkKepler
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsFrameworkDogTextBox10nov2023", "WindowsFormsFrameworkDogTextBox10nov2023\WindowsFormsFrameworkDogTextBox10nov2023.csproj", "{D62562E5-DE7D-4E59-BD37-D690772CFF80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleBalspel11nov2023", "ConsoleBalspel11nov2023\ConsoleBalspel11nov2023.csproj", "{4DB47A8C-774E-4B0B-B625-9BB1724189D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleBalspel11nov2023", "ConsoleBalspel11nov2023\ConsoleBalspel11nov2023.csproj", "{4DB47A8C-774E-4B0B-B625-9BB1724189D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleBookmarkManager11nov2023", "ConsoleBookmarkManager11nov2023\ConsoleBookmarkManager11nov2023.csproj", "{32D6C6A3-C9C5-4E42-8B9A-B0FF3EBED3D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleBookmarkManager11nov2023", "ConsoleBookmarkManager11nov2023\ConsoleBookmarkManager11nov2023.csproj", "{32D6C6A3-C9C5-4E42-8B9A-B0FF3EBED3D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleBookmarkHidden11nov2023", "ConsoleBookmarkHidden11nov2023\ConsoleBookmarkHidden11nov2023.csproj", "{D8BC4B0D-92FE-4FF9-BD20-91AEF5091709}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleBookmarkHidden11nov2023", "ConsoleBookmarkHidden11nov2023\ConsoleBookmarkHidden11nov2023.csproj", "{D8BC4B0D-92FE-4FF9-BD20-91AEF5091709}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleGeometricFigures11nov2023", "ConsoleGeometricFigures11nov2023\ConsoleGeometricFigures11nov2023.csproj", "{6DFB0204-1E9F-4D42-B144-8898C81374FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleGeometricFigures11nov2023", "ConsoleGeometricFigures11nov2023\ConsoleGeometricFigures11nov2023.csproj", "{6DFB0204-1E9F-4D42-B144-8898C81374FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleZiekenhuis13nov2023", "ConsoleZiekenhuis13nov2023\ConsoleZiekenhuis13nov2023.csproj", "{F650EF2D-1F97-4ABE-A357-186A274D3D9F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{6DFB0204-1E9F-4D42-B144-8898C81374FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DFB0204-1E9F-4D42-B144-8898C81374FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DFB0204-1E9F-4D42-B144-8898C81374FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F650EF2D-1F97-4ABE-A357-186A274D3D9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F650EF2D-1F97-4ABE-A357-186A274D3D9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F650EF2D-1F97-4ABE-A357-186A274D3D9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F650EF2D-1F97-4ABE-A357-186A274D3D9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
