@@ -25,6 +25,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleZiekenhuis13nov2023"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsolePrijzenForeachAverage14nov2023", "ConsolePrijzenForeachAverage14nov2023\ConsolePrijzenForeachAverage14nov2023.csproj", "{939E80F6-97D9-4868-BC7A-51466683F1DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleStringInterpolation14nov2023", "ConsoleStringInterpolation14nov2023\ConsoleStringInterpolation14nov2023.csproj", "{EAAA4171-32B9-43BB-92A9-223DF6B12984}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{939E80F6-97D9-4868-BC7A-51466683F1DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{939E80F6-97D9-4868-BC7A-51466683F1DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{939E80F6-97D9-4868-BC7A-51466683F1DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAAA4171-32B9-43BB-92A9-223DF6B12984}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAAA4171-32B9-43BB-92A9-223DF6B12984}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAAA4171-32B9-43BB-92A9-223DF6B12984}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAAA4171-32B9-43BB-92A9-223DF6B12984}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
