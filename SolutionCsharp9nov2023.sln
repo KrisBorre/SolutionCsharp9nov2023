@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleStringInterpolation1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleSystemProcessors14nov2023", "ConsoleSystemProcessors14nov2023\ConsoleSystemProcessors14nov2023.csproj", "{71D770A6-1533-4603-A389-FCD784282734}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleSystemDrive14nov2023", "ConsoleSystemDrive14nov2023\ConsoleSystemDrive14nov2023.csproj", "{844D58D5-4FE3-4789-B09E-2BA5012BBEEA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{71D770A6-1533-4603-A389-FCD784282734}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71D770A6-1533-4603-A389-FCD784282734}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71D770A6-1533-4603-A389-FCD784282734}.Release|Any CPU.Build.0 = Release|Any CPU
+		{844D58D5-4FE3-4789-B09E-2BA5012BBEEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{844D58D5-4FE3-4789-B09E-2BA5012BBEEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{844D58D5-4FE3-4789-B09E-2BA5012BBEEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{844D58D5-4FE3-4789-B09E-2BA5012BBEEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
