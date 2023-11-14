@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleBookmarkHidden11nov2
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleGeometricFigures11nov2023", "ConsoleGeometricFigures11nov2023\ConsoleGeometricFigures11nov2023.csproj", "{6DFB0204-1E9F-4D42-B144-8898C81374FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleZiekenhuis13nov2023", "ConsoleZiekenhuis13nov2023\ConsoleZiekenhuis13nov2023.csproj", "{F650EF2D-1F97-4ABE-A357-186A274D3D9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleZiekenhuis13nov2023", "ConsoleZiekenhuis13nov2023\ConsoleZiekenhuis13nov2023.csproj", "{F650EF2D-1F97-4ABE-A357-186A274D3D9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsolePrijzenForeachAverage14nov2023", "ConsolePrijzenForeachAverage14nov2023\ConsolePrijzenForeachAverage14nov2023.csproj", "{939E80F6-97D9-4868-BC7A-51466683F1DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{F650EF2D-1F97-4ABE-A357-186A274D3D9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F650EF2D-1F97-4ABE-A357-186A274D3D9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F650EF2D-1F97-4ABE-A357-186A274D3D9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{939E80F6-97D9-4868-BC7A-51466683F1DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{939E80F6-97D9-4868-BC7A-51466683F1DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{939E80F6-97D9-4868-BC7A-51466683F1DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{939E80F6-97D9-4868-BC7A-51466683F1DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
