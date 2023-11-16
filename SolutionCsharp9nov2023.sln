@@ -33,6 +33,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleSystemDrive14nov2023
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleSpeelkaart16nov2023", "ConsoleSpeelkaart16nov2023\ConsoleSpeelkaart16nov2023.csproj", "{8C65C622-7466-4FFA-91B9-F4A9AD5FD8A7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleShell16nov2023", "ConsoleShell16nov2023\ConsoleShell16nov2023.csproj", "{584C5118-1290-4986-89E3-614FA27C7472}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{8C65C622-7466-4FFA-91B9-F4A9AD5FD8A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C65C622-7466-4FFA-91B9-F4A9AD5FD8A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C65C622-7466-4FFA-91B9-F4A9AD5FD8A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{584C5118-1290-4986-89E3-614FA27C7472}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{584C5118-1290-4986-89E3-614FA27C7472}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{584C5118-1290-4986-89E3-614FA27C7472}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{584C5118-1290-4986-89E3-614FA27C7472}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
