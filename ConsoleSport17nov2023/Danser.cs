@@ -1,8 +1,8 @@
 ﻿namespace ConsoleSport17nov2023
 {
-    internal enum Schoenen { Latin, Ballet, Flamenco, Tap, HipHop };
+    public enum Schoenen { Latin, Ballet, Flamenco, Tap, HipHop };
 
-    internal class Danser
+    public class Danser
     {
         public string Naam { get; set; }
 
