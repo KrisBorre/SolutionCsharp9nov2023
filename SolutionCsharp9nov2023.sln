@@ -43,6 +43,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleSport17nov2023", "Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleSportSimulator17nov2023", "ConsoleSportSimulator17nov2023\ConsoleSportSimulator17nov2023.csproj", "{9724F199-7E77-4F0E-8966-8CB08525B119}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryFrameworkInterpolation17nov2023", "LibraryFrameworkInterpolation17nov2023\LibraryFrameworkInterpolation17nov2023.csproj", "{F088ADD1-245B-4ECB-B853-77ECDA97B817}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsFrameworkInterpolation17nov2023", "WindowsFormsFrameworkInterpolation17nov2023\WindowsFormsFrameworkInterpolation17nov2023.csproj", "{E2926535-1152-4A70-82AD-99D4583057AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +133,14 @@ Global
 		{9724F199-7E77-4F0E-8966-8CB08525B119}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9724F199-7E77-4F0E-8966-8CB08525B119}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9724F199-7E77-4F0E-8966-8CB08525B119}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F088ADD1-245B-4ECB-B853-77ECDA97B817}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F088ADD1-245B-4ECB-B853-77ECDA97B817}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F088ADD1-245B-4ECB-B853-77ECDA97B817}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F088ADD1-245B-4ECB-B853-77ECDA97B817}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2926535-1152-4A70-82AD-99D4583057AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2926535-1152-4A70-82AD-99D4583057AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2926535-1152-4A70-82AD-99D4583057AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2926535-1152-4A70-82AD-99D4583057AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
