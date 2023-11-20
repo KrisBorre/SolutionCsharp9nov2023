@@ -53,6 +53,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryFrameworkFunctionExa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsFrameworkIntegration19nov2023", "WindowsFormsFrameworkIntegration19nov2023\WindowsFormsFrameworkIntegration19nov2023.csproj", "{CBB562DB-25A1-41E9-B1DC-F5D09D7F5BFB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryFrameworkEllipticIntergrals20nov2023", "LibraryFrameworkEllipticIntergrals20nov2023\LibraryFrameworkEllipticIntergrals20nov2023.csproj", "{D86A1C10-A306-4715-93FB-51C12F70EB92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsFrameworkEllipticIntegrals20nov2023", "WindowsFormsFrameworkEllipticIntegrals20nov2023\WindowsFormsFrameworkEllipticIntegrals20nov2023.csproj", "{685DAF59-3D6E-4F73-B860-FD8EA61665CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +163,14 @@ Global
 		{CBB562DB-25A1-41E9-B1DC-F5D09D7F5BFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBB562DB-25A1-41E9-B1DC-F5D09D7F5BFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBB562DB-25A1-41E9-B1DC-F5D09D7F5BFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D86A1C10-A306-4715-93FB-51C12F70EB92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D86A1C10-A306-4715-93FB-51C12F70EB92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D86A1C10-A306-4715-93FB-51C12F70EB92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D86A1C10-A306-4715-93FB-51C12F70EB92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{685DAF59-3D6E-4F73-B860-FD8EA61665CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{685DAF59-3D6E-4F73-B860-FD8EA61665CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{685DAF59-3D6E-4F73-B860-FD8EA61665CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{685DAF59-3D6E-4F73-B860-FD8EA61665CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
