@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LibraryFrameworkEllipticIntergrals20nov2023
+namespace LibraryFrameworkEllipticIntegrals20nov2023
 {
     /// <summary>
     /// https://en.wikipedia.org/wiki/Elliptic_integral

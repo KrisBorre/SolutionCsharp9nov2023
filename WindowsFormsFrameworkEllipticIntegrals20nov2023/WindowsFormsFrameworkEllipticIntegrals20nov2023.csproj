@@ -81,9 +81,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\LibraryFrameworkEllipticIntergrals20nov2023\LibraryFrameworkEllipticIntergrals20nov2023.csproj">
+    <ProjectReference Include="..\LibraryFrameworkEllipticIntergrals20nov2023\LibraryFrameworkEllipticIntegrals20nov2023.csproj">
       <Project>{d86a1c10-a306-4715-93fb-51c12f70eb92}</Project>
-      <Name>LibraryFrameworkEllipticIntergrals20nov2023</Name>
+      <Name>LibraryFrameworkEllipticIntegrals20nov2023</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

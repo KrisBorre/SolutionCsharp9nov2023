@@ -1,4 +1,4 @@
-﻿using LibraryFrameworkEllipticIntergrals20nov2023;
+﻿using LibraryFrameworkEllipticIntegrals20nov2023;
 using System;
 using System.Drawing;
 using System.Windows.Forms;
