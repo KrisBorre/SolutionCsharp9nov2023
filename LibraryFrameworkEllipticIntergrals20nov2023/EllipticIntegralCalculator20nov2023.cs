@@ -88,13 +88,11 @@ namespace LibraryFrameworkEllipticIntegrals20nov2023
 
         private double rd(double x, double y, double z)
         {
-
             double ERRTOL = 0.0015, C1 = 3.0 / 14.0, C2 = 1.0 / 6.0, C3 = 9.0 / 22.0, C4 = 3.0 / 26.0, C5 = 0.25 * C3, C6 = 1.5 * C4;
 
             double TINY = 2.0 * Math.Pow(double.MaxValue, -2.0 / 3.0), BIG = 0.1 * ERRTOL * Math.Pow(double.MinValue, -2.0 / 3.0);
 
-            double alamb, ave, delx, dely, delz, ea, eb, ec, ed, ee, fac, sqrtx, sqrty,
-                sqrtz, sum, xt, yt, zt;
+            double alamb, ave, delx, dely, delz, ea, eb, ec, ed, ee, fac, sqrtx, sqrty, sqrtz, sum, xt, yt, zt;
 
             if (Math.Min(x, y) < 0.0 || Math.Min(x + y, z) < TINY || Math.Max(Math.Max(x, y), z) > BIG)
                 Console.WriteLine("invalid arguments in rd");
