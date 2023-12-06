@@ -57,6 +57,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryFrameworkEllipticInt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsFrameworkEllipticIntegrals20nov2023", "WindowsFormsFrameworkEllipticIntegrals20nov2023\WindowsFormsFrameworkEllipticIntegrals20nov2023.csproj", "{685DAF59-3D6E-4F73-B860-FD8EA61665CB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrameworkConsoleEllipticFunctions6dec2023", "FrameworkConsoleEllipticFunctions6dec2023\FrameworkConsoleEllipticFunctions6dec2023.csproj", "{23A6B81C-7F00-41AA-814A-28A3675DB309}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -171,6 +173,10 @@ Global
 		{685DAF59-3D6E-4F73-B860-FD8EA61665CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{685DAF59-3D6E-4F73-B860-FD8EA61665CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{685DAF59-3D6E-4F73-B860-FD8EA61665CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23A6B81C-7F00-41AA-814A-28A3675DB309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23A6B81C-7F00-41AA-814A-28A3675DB309}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23A6B81C-7F00-41AA-814A-28A3675DB309}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23A6B81C-7F00-41AA-814A-28A3675DB309}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
