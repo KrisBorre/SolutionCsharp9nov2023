@@ -57,7 +57,7 @@ namespace LibraryFrameworkEllipticIntegrals20nov2023
         {
             double ERRTOL = 0.0012, THIRD = 1.0 / 3.0, C1 = 0.3, C2 = 1.0 / 7.0, C3 = 0.375, C4 = 9.0 / 22.0;
 
-            double TINY = 5.0 * double.MinValue, BIG = 0.2 * double.MaxValue, COMP1 = 2.236 / Math.Pow(TINY, 0.5), COMP2 = Math.Pow(TINY * BIG, 2) / 25.0;
+            double TINY = 5.0 * double.MinValue, BIG = 0.2 * double.MaxValue, COMP1 = 2.236 / Math.Sqrt(TINY), COMP2 = Math.Pow(TINY * BIG, 2) / 25.0;
 
             double alamb, ave, s, w, xt, yt;
 
@@ -73,17 +73,17 @@ namespace LibraryFrameworkEllipticIntegrals20nov2023
             {
                 xt = x - y;
                 yt = -y;
-                w = Math.Pow(x, 0.5) / Math.Pow(xt, 0.5);
+                w = Math.Sqrt(x) / Math.Sqrt(xt);
             }
             do
             {
-                alamb = 2.0 * Math.Pow(xt, 0.5) * Math.Pow(yt, 0.5) + yt;
+                alamb = 2.0 * Math.Sqrt(xt) * Math.Sqrt(yt) + yt;
                 xt = 0.25 * (xt + alamb);
                 yt = 0.25 * (yt + alamb);
                 ave = THIRD * (xt + yt + yt);
                 s = (yt - ave) / ave;
             } while (Math.Abs(s) > ERRTOL);
-            return w * (1.0 + s * s * (C1 + s * (C2 + s * (C3 + s * C4)))) / Math.Pow(ave, 0.5);
+            return w * (1.0 + s * s * (C1 + s * (C2 + s * (C3 + s * C4)))) / Math.Sqrt(ave);
         }
 
         private double rd(double x, double y, double z)
@@ -105,9 +105,9 @@ namespace LibraryFrameworkEllipticIntegrals20nov2023
 
             do
             {
-                sqrtx = Math.Pow(xt, 0.5);
-                sqrty = Math.Pow(yt, 0.5);
-                sqrtz = Math.Pow(zt, 0.5);
+                sqrtx = Math.Sqrt(xt);
+                sqrty = Math.Sqrt(yt);
+                sqrtz = Math.Sqrt(zt);
                 alamb = sqrtx * (sqrty + sqrtz) + sqrty * sqrtz;
                 sum += fac / (sqrtz * (zt + alamb));
                 fac = 0.25 * fac;
@@ -126,7 +126,7 @@ namespace LibraryFrameworkEllipticIntegrals20nov2023
             ed = ea - 6.0 * eb;
             ee = ed + ec + ec;
 
-            return 3.0 * sum + fac * (1.0 + ed * (-C1 + C5 * ed - C6 * delz * ee) + delz * (C2 * ee + delz * (-C3 * ec + delz * C4 * ea))) / (ave * Math.Pow(ave, 0.5));
+            return 3.0 * sum + fac * (1.0 + ed * (-C1 + C5 * ed - C6 * delz * ee) + delz * (C2 * ee + delz * (-C3 * ec + delz * C4 * ea))) / (ave * Math.Sqrt(ave));
         }
 
         // Computes Carlson's elliptic integral of the first kind, R_F (x, y, z). x, y, z must be nonnegative, and at most one can be zero.
@@ -147,9 +147,9 @@ namespace LibraryFrameworkEllipticIntegrals20nov2023
 
             do
             {
-                sqrtx = Math.Pow(xt, 0.5);
-                sqrty = Math.Pow(yt, 0.5);
-                sqrtz = Math.Pow(zt, 0.5);
+                sqrtx = Math.Sqrt(xt);
+                sqrty = Math.Sqrt(yt);
+                sqrtz = Math.Sqrt(zt);
                 alamb = sqrtx * (sqrty + sqrtz) + sqrty * sqrtz;
                 xt = 0.25 * (xt + alamb);
                 yt = 0.25 * (yt + alamb);
@@ -163,7 +163,7 @@ namespace LibraryFrameworkEllipticIntegrals20nov2023
             e2 = delx * dely - delz * delz;
             e3 = delx * dely * delz;
 
-            return (1.0 + (C1 * e2 - C2 - C3 * e3) * e2 + C4 * e3) / Math.Pow(ave, 0.5);
+            return (1.0 + (C1 * e2 - C2 - C3 * e3) * e2 + C4 * e3) / Math.Sqrt(ave);
         }
 
 
@@ -204,9 +204,9 @@ namespace LibraryFrameworkEllipticIntegrals20nov2023
             }
             do
             {
-                sqrtx = Math.Pow(xt, 0.5);
-                sqrty = Math.Pow(yt, 0.5);
-                sqrtz = Math.Pow(zt, 0.5);
+                sqrtx = Math.Sqrt(xt);
+                sqrty = Math.Sqrt(yt);
+                sqrtz = Math.Sqrt(zt);
                 alamb = sqrtx * (sqrty + sqrtz) + sqrty * sqrtz;
                 alpha = Math.Pow(pt * (sqrtx + sqrty + sqrtz) + sqrtx * sqrty * sqrtz, 2);
                 beta = pt * Math.Pow(pt + alamb, 2);
@@ -227,7 +227,7 @@ namespace LibraryFrameworkEllipticIntegrals20nov2023
             ec = delp * delp;
             ed = ea - 3.0 * ec;
             ee = eb + 2.0 * delp * (ea - ec);
-            ans = 3.0 * sum + fac * (1.0 + ed * (-C1 + C5 * ed - C6 * ee) + eb * (C7 + delp * (-C8 + delp * C4)) + delp * ea * (C2 - delp * C3) - C2 * delp * ec) / (ave * Math.Pow(ave, 0.5));
+            ans = 3.0 * sum + fac * (1.0 + ed * (-C1 + C5 * ed - C6 * ee) + eb * (C7 + delp * (-C8 + delp * C4)) + delp * ea * (C2 - delp * C3) - C2 * delp * ec) / (ave * Math.Sqrt(ave));
 
             if (p <= 0.0) ans = a * (b * ans + 3.0 * (rcx - rf(xt, yt, zt)));
 
