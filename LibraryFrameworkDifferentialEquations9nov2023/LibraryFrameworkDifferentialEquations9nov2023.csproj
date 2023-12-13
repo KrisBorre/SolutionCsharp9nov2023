@@ -45,6 +45,7 @@
     <Compile Include="ConditionInitial.cs" />
     <Compile Include="DifferentialEquationBaseClass.cs" />
     <Compile Include="DifferentialEquationsBaseClass.cs" />
+    <Compile Include="DifferentialEquationsSolver13dec2023.cs" />
     <Compile Include="DifferentialEquationsSolverBaseClass.cs" />
     <Compile Include="DifferentialEquationsSolverRK41_5nov2023.cs" />
     <Compile Include="DifferentialEquationsSolverRK61_5nov2023.cs" />

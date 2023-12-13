@@ -59,6 +59,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsFrameworkEllipt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrameworkConsoleEllipticFunctions6dec2023", "FrameworkConsoleEllipticFunctions6dec2023\FrameworkConsoleEllipticFunctions6dec2023.csproj", "{23A6B81C-7F00-41AA-814A-28A3675DB309}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsFrameworkDogTextBox13dec2023", "WindowsFormsFrameworkDogTextBox13dec2023\WindowsFormsFrameworkDogTextBox13dec2023.csproj", "{1F7CAE6D-72FD-4E13-9535-B5F9E8E035B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsFrameworkKepler13dec2023", "WindowsFormsFrameworkKepler13dec2023\WindowsFormsFrameworkKepler13dec2023.csproj", "{75A1FFE9-BF95-42F8-AF32-AAB42AF48CB3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -177,6 +181,14 @@ Global
 		{23A6B81C-7F00-41AA-814A-28A3675DB309}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23A6B81C-7F00-41AA-814A-28A3675DB309}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23A6B81C-7F00-41AA-814A-28A3675DB309}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F7CAE6D-72FD-4E13-9535-B5F9E8E035B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F7CAE6D-72FD-4E13-9535-B5F9E8E035B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F7CAE6D-72FD-4E13-9535-B5F9E8E035B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F7CAE6D-72FD-4E13-9535-B5F9E8E035B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75A1FFE9-BF95-42F8-AF32-AAB42AF48CB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75A1FFE9-BF95-42F8-AF32-AAB42AF48CB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75A1FFE9-BF95-42F8-AF32-AAB42AF48CB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75A1FFE9-BF95-42F8-AF32-AAB42AF48CB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
