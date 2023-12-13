@@ -128,7 +128,7 @@ namespace WindowsFormsFrameworkDogTextBox13dec2023
             // https://mathcurve.com/courbes2d.gb/poursuite/poursuite.shtml           
 
             ulong number_of_steps = 1000;
-            Console.WriteLine("master-and-dog problem with enum");
+            Console.WriteLine("master-and-dog problem with Flags enum");
 
             DifferentialEquationsSolver13dec2023 solver = new DifferentialEquationsSolver13dec2023(new DifferentialEquationsDog10nov2023(ratio), Method.RK61);
 
@@ -144,7 +144,7 @@ namespace WindowsFormsFrameworkDogTextBox13dec2023
             ConditionInitial ic = new ConditionInitial(a, b, c);
             //ic.X = a; // x_begin                
 
-            solver.Solve(initialCondition: ic, number_of_steps: number_of_steps, out double delta_x, out NumericalSolutions solutions, number_of_solutions: 1000, interval: interval, sophisticated: true, x_end: x_end);
+            solver.Solve(initialCondition: ic, number_of_steps: number_of_steps, out double delta_x, out NumericalSolutions solutions, number_of_solutions: 1000, interval: interval, x_end: x_end);
 
             Series series = new Series();
             series.ChartArea = "chartArea";

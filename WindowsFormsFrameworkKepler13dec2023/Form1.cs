@@ -63,8 +63,9 @@ Reference: Numerical methods for ODEs, Butcher(2008)
             const double eccentricity = 3.0 / 4.0; // 0.5; // 0;
             Console.WriteLine("eccentricity of the elliptic trajectory of the planet = " + eccentricity);
 
-            Console.WriteLine("Solver with enum");
-            DifferentialEquationsSolver13dec2023 solver = new DifferentialEquationsSolver13dec2023(new DifferentialEquationsKepler(), Method.RK41);
+            Console.WriteLine("Solver with Flags enum");
+            DifferentialEquationsSolver13dec2023 solver1 = new DifferentialEquationsSolver13dec2023(new DifferentialEquationsKepler(), Method.RK41 | Method.Sophisticated);
+            DifferentialEquationsSolver13dec2023 solver2 = new DifferentialEquationsSolver13dec2023(new DifferentialEquationsKepler(), Method.RK41 | Method.Crude);
 
             double interval = Math.PI;
 
@@ -81,8 +82,8 @@ Reference: Numerical methods for ODEs, Butcher(2008)
                                                          y4_zero_exact_function(eccentricity));
                 //ic.X = 0;
 
-                solver.Solve(initialCondition: ic, number_of_steps: number_of_steps, delta_x: out double delta_x, out NumericalSolution solutionSophisticated, interval: interval, sophisticated: true);
-                solver.Solve(initialCondition: ic, number_of_steps: number_of_steps, delta_x: out double delta_x_crude, out NumericalSolution solutionCrude, interval: interval, sophisticated: false);
+                solver1.Solve(initialCondition: ic, number_of_steps: number_of_steps, delta_x: out double delta_x, out NumericalSolution solutionSophisticated, interval: interval);
+                solver2.Solve(initialCondition: ic, number_of_steps: number_of_steps, delta_x: out double delta_x_crude, out NumericalSolution solutionCrude, interval: interval);
 
                 double y1_pi_exact = y1_pi_exact_function(eccentricity);
                 double y2_pi_exact = y2_pi_exact_function(eccentricity);
